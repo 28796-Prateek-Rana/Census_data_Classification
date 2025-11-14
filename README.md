@@ -58,8 +58,8 @@ The model's success is judged on its utility for identifying the high-value segm
 
 | Metric | Business Focus |
 | :--- | :--- |
-| **Precision** | **Trustworthiness:** Of all records predicted as $>\$50K$, how many were correctly identified? |
-| **Recall** | **Completeness:** Of all individuals who *actually* earned $>\$50K$, how many did the model successfully find? |
+| **Precision** | **Trustworthiness:** Of all records predicted as >$50K, how many were correctly identified? |
+| **Recall** | **Completeness:** Of all individuals who *actually* earned >$50K, how many did the model successfully find? |
 | **F1-Score** | **Primary Objective:** The balanced measure of Precision and Recall for the minority class, indicating a truly robust and deployable model. |
 
 ---
