@@ -43,8 +43,8 @@ The documentation is clear that the **`instance weight`** attribute, while vital
 
 The analysis is segmented into two clear, readable stages, demonstrating a clear separation of concerns:
 
-* **`notebooks/1.0-EDA-Report.ipynb`**: Dedicated to initial data understanding, visualisations, and exploratory analysis of the `learn` dataset.
-* **`notebooks/2.0-Production-Pipeline.ipynb`**: This notebook contains the entire functional pipeline. All major steps (data cleaning, feature engineering, training, and final evaluation) are **encapsulated in distinct Python functions** to ensure the code logic is clear, reusable, and easy to evaluate.
+* **`EDA-Report.ipynb`**: Dedicated to initial data understanding, visualisations, and exploratory analysis of the `learn` dataset.
+* **`Production-pipeline.ipynb`**: This notebook contains the entire functional pipeline. All major steps (data cleaning, feature engineering, training, and final evaluation) are **encapsulated in distinct Python functions** to ensure the code logic is clear, reusable, and easy to evaluate.
 
 ### 3.2. Class Imbalance Mitigation (XGBoost)
 
