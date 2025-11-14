@@ -101,7 +101,7 @@ The following step must be executed to prepare the data files (census_income_lea
 Install all required Python dependencies:
 
 ```bash
-unzip data_files.zip
+unzip data.zip
 ```
 ```bash
 pip install -r requirements.txt
