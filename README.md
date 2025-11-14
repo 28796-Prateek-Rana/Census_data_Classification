@@ -91,7 +91,7 @@ jupyterlab>=3.0.0
 Clone the repository:
 
 ```bash
-git clone [https://github.com/YourUsername/census-income-classification.git](https://github.com/YourUsername/census-income-classification.git)
+git clone [https://github.com/28796-Prateek-Rana/census-income-classification.git](https://github.com/28796-Prateek-Rana/census-income-classification.git)
 cd census-income-classification
 ```
 
