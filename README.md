@@ -18,14 +18,14 @@ The objective of this submission is to provide a complete, documented, and profe
 
 The analysis utilises data derived from the U.S. Census Bureau database, featuring 40 attributes.
 
-### Dataset Split and Purpose
+### Dataset Split and Storage
 
-The project uses two distinct files to maintain a professional, rigorous hold-out validation protocol:
+Due to repository constraints, all files reside in the root directory. The data files required for execution are contained within the compressed file, **`data_files.zip`**, which includes:
 
-* **`data/census_income_learn.csv`**: Used for all **training, internal validation, and Exploratory Data Analysis (EDA)**.
-* **`data/census_income_test.csv`**: Used strictly as the **final, unseen hold-out set** for scoring the final model performance.
+* **`census_income_learn.csv`**: Used for all **training, internal validation, and Exploratory Data Analysis (EDA)**.
+* **`census_income_test.csv`**: Used strictly as the **final, unseen hold-out set** for scoring the final model performance.
 
-The full data dictionary and attribute constraints are provided in the **`data/census_income_metadata.txt`** file.
+The full data dictionary and attribute constraints are provided in **`census_income_metadata.txt`** in the root directory.
 
 ### Critical Technical Challenge: Class Imbalance
 
@@ -94,8 +94,15 @@ Clone the repository:
 git clone [https://github.com/YourUsername/census-income-classification.git](https://github.com/YourUsername/census-income-classification.git)
 cd census-income-classification
 ```
+
+###Data Preparation
+
+The following step must be executed to prepare the data files (census_income_learn.csv and census_income_test.csv) for use by the notebooks:
 Install all required Python dependencies:
 
+```bash
+unzip data_files.zip
+```
 ```bash
 pip install -r requirements.txt
 ```
